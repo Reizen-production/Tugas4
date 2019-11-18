@@ -6,12 +6,11 @@ tugas = []                                                                      
 uts = []                                                                        # Data yang ingin dimasukan
 uas = []                                                                        # Data yang ingin dimasukan
 akhir = []                                                                      # Data yang ingin dimasukan
-jawab = input("Masukan Data (y/t)?")                                            # Disini menentukan decision
 mhsw = []                                                                       # Ini digunakan agar datanya rapih berurutan kebawah
 
 
 # Looping
-while jawab == 'y':                                                             # statement while untuk status true
+while True:                                                                     # statement while untuk status true
     s_nama = input("Nama :")                                                    # mengisi nama
     nama.append(s_nama)                                                         # menambahkan nama
     i_nim = int(input("NIM :"))                                                 # mengisi nim
